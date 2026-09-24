@@ -1,5 +1,7 @@
 import './App.css'
 
+const baseUrl = import.meta.env.BASE_URL
+
 const skillGroups = [
   {
     title: 'Programming & Tech',
@@ -120,7 +122,7 @@ function App() {
               data-driven thinking.
             </p>
             <div className="cta-row">
-              <a className="button primary" href="/Fadli_Ahmad_Akbar_CV.pdf" target="_blank" rel="noreferrer">
+              <a className="button primary" href={`${baseUrl}Fadli_Ahmad_Akbar_CV.pdf`} target="_blank" rel="noreferrer">
                 Download CV
               </a>
               <a className="button secondary" href="#projects">
