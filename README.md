@@ -1,16 +1,12 @@
-# React + Vite
+# Fadli Ahmad Akbar Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A framework-free personal portfolio website built with plain HTML, CSS, and JavaScript.
 
-Currently, two official plugins are available:
+## Files
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `index.html` - page structure and portfolio content
+- `style.css` - responsive layout and visual styling
+- `script.js` - project, skills, and experience rendering
+- `public/Fadli_Ahmad_Akbar_CV.pdf` - downloadable resume
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The GitHub Actions workflow deploys the repository directly to GitHub Pages whenever the `Fadli-A-1251420031` branch is updated.
